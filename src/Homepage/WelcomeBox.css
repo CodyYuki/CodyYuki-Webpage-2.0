@@ -1,3 +1,4 @@
+
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -12,16 +13,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-body {
-  background-image: url("img_tree.gif");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
+
 
 .box{
     text-align: center;
     border-color: aliceblue;
     border-style: double;
+    margin: auto 2% auto 32%;
 }
 
 .title {
