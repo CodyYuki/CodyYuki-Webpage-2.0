@@ -10,15 +10,19 @@ import Backgroundimg from './Homepage/Backgroundimg'
 import Art from './Homepage/Art'
 import SoftwareProject from './Homepage/SoftwareProjects'
 import Sites from './Homepage/sites'
+import Patreon from './Homepage/Patreon'
+import Navbar from './Homepage/navbar'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
+    <Navbar />
     <Portrait />
     <WelcomeBox />
     <Backgroundimg />
     <Art />
     <SoftwareProject />
+    <Patreon />
     <Sites />
   </React.StrictMode>,
 )

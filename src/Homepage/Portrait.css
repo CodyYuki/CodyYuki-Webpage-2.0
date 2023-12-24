@@ -1,5 +1,7 @@
 .image {
-    width: 300px;
-    position: relative;
-    top: 20px;
+    width: 800px;
+    position: absolute;
+    top: 135px;
+    left: 360px;
+    z-index: -9;
 }
