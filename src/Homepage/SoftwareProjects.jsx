@@ -16,6 +16,7 @@ function SoftwareProject(){
     <h1>Software Projects</h1>
         {projects.map(function(projects) {
         return (
+            //For later, i have an idea, set the ul to a p and set the first list as a ul. maybe that would work?
             <ul key={projects.id}>
             <li>{projects.projectname}</li>
             <li>{projects.projectdesc}</li>

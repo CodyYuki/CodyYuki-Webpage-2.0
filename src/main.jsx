@@ -12,11 +12,13 @@ import SoftwareProject from './Homepage/SoftwareProjects'
 import Sites from './Homepage/sites'
 import Patreon from './Homepage/Patreon'
 import Navbar from './Homepage/navbar'
+import Temp from './Homepage/temp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
     <Navbar />
+    <Temp />
     <Portrait />
     <WelcomeBox />
     <Backgroundimg />
